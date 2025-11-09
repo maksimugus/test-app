@@ -17,7 +17,7 @@ public class Student {
     @Column(nullable = false)
     private Integer year;
 
-    @Column(nullable = false)
+    @Column(name = "student_group", nullable = false)
     private String group;
 
     @Column(name = "first_name", nullable = false)

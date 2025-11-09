@@ -7,10 +7,3 @@ spring:
   jpa:
     hibernate:
       ddl-auto: validate
-  flyway:
-    enabled: true
-    user: ${POSTGRES_USER}
-    password: ${POSTGRES_PASSWORD}
-    baseline-on-migrate: true
-    baseline-version: 0
-    baseline-description: "init"
